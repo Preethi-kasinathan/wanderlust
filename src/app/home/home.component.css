@@ -1,0 +1,32 @@
+h1,
+h2,
+h3 {
+    background: grey;
+    padding: 0.5em;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 32.6%;
+    padding: 3px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.c1 {
+    float: left;
+    width: 12%;
+    align-items: center;
+    padding: 1em;
+}
+
+.r1::after {
+    content: "";
+    clear: both;
+    display: table;
+}

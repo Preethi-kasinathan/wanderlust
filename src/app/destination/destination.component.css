@@ -1,0 +1,24 @@
+h3 {
+    background: grey;
+    padding: 0.5em;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    align-items: center;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+mat-card {
+    padding: 5em;
+    margin: 7px;
+}

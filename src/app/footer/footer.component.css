@@ -1,0 +1,32 @@
+footer {
+    background: grey;
+    padding: 1em 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.logo {
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+li a {
+    padding: 1em;
+}
+
+li a:hover {
+    background: orangered;
+}
